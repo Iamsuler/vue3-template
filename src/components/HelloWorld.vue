@@ -47,6 +47,9 @@ export default defineComponent({
   },
   setup: () => {
     const count = ref(0);
+    if (count.value == 0) {
+      console.log('xxx');
+    }
     return { count };
   },
 });
