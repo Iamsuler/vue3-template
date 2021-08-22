@@ -28,7 +28,10 @@
     "eslint-config-airbnb": "^18.2.1",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-import": "^2.24.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-react": "^7.24.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
     "eslint-plugin-vue": "^7.16.0",
     "husky": "^7.0.0",
     "lint-staged": "^11.1.2",
@@ -42,10 +45,5 @@
     "vite": "^2.4.4",
     "vue-eslint-parser": "^7.10.0",
     "vue-tsc": "^0.2.2"
-  },
-  "peerDependencies": {
-    "eslint-plugin-jsx-a11y": "^6.4.1",
-    "eslint-plugin-react": "^7.24.0",
-    "eslint-plugin-react-hooks": "^4.2.0"
   }
 }
