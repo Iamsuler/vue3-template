@@ -17,5 +17,19 @@ module.exports = {
     sourceType: 'module',
   },
   plugins: ['vue', '@typescript-eslint', 'prettier'],
-  rules: {},
+  settings: {
+    'import/resolver': {
+      node: {
+        extensions: ['.ts', '.tsx'],
+      },
+    },
+  },
+  // ignorePatterns: ['node_modules', 'dist'],
+  rules: {
+    'import/extensions': [
+      'error',
+      'ignorePackages',
+      { js: 'never', jsx: 'never', ts: 'never', tsx: 'never' },
+    ],
+  },
 };
