@@ -19,8 +19,9 @@ module.exports = {
   plugins: ['vue', '@typescript-eslint', 'prettier'],
   settings: {
     'import/resolver': {
-      node: {
-        extensions: ['.ts', '.tsx'],
+      alias: {
+        map: [['@', './src']],
+        extensions: ['.ts', '.tsx', 'js'],
       },
     },
   },
